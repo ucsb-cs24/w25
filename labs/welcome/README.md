@@ -76,32 +76,38 @@ Now that your Git repo is set up, get some practice merging:
 
 ## Some Code
 
-Then write some code.
+Now that you have Git set up, it's time to write some code.
 
-- Create the folder `welcome/code`.
-- Create a `caprot.cpp` file  in that folder.  This should  compile to a program
-  that takes one `int` as a command line argument,  then reads one line from the
-  console.  It should then print that line with the capitalization right-rotated
-  by the number of characters given on the command line  (note that the rotation
-  wraps around when it reaches the end of the line):
-  ```
-  [user@host code]$ ./caprot 2
-  abC123Def
-  abc123deF
-  [user@host code]$ ./caprot 5
-  AbcdEfghIjklmnOpqrstUvwxYz
-  abcDeFghiJklmNopqrsTuvwxyZ
-  [user@host code]$ ./caprot -2
-  HIJ456klm
-  Hij456kLM
-  [user@host code]$ ./caprot -108
-  AbcdEfghIjklmnOpqrstUvwxYz
-  AbcdEfghijKlmnopQrstUvWxyz
-  ```
-- Create a `Makefile` inside your `welcome/code` folder.
-  - Running `make` in that folder should compile `caprot.cpp` to an executable named `caprot`.
-  - Running `make clean` in that folder should remove the executable and any object files.
-  - Running `make clean` should succeed even if there is no executable.
+First, create the folder `labs/welcome/code`. Then, inside that folder, create a
+file named `caprot.cpp`. In this file, write a program that takes one integer as
+a  command line argument,  then reads one line from the console.  It should then
+print the line with the capitalization right-rotated by the number of characters
+given  on the command line  (note that the rotation wraps around when it reaches
+the end of the line):
+
+```
+[user@host code]$ ./caprot 2
+abC123Def
+abc123deF
+[user@host code]$ ./caprot 5
+AbcdEfghIjklmnOpqrstUvwxYz
+abcDeFghiJklmNopqrsTuvwxyZ
+[user@host code]$ ./caprot -2
+HIJ456klm
+Hij456kLM
+[user@host code]$ ./caprot -108
+AbcdEfghIjklmnOpqrstUvwxYz
+AbcdEfghijKlmnopQrstUvWxyz
+```
+
+If your program is given an incorrect number of command line arguments, print an
+error message  to the standard error stream  (`std::cerr`)  and exit immediately
+with exit code 1:
+
+```
+[user@host code]$ ./caprot 1 2 3 4 5
+USAGE: caprot [rotation]
+```
 
 
 ## A Makefile
@@ -138,8 +144,11 @@ If everything looks good, you're ready to submit your code.
 ## Code Hints
 
 - The [cctype][cctype] header contains functions for working with characters,
-  but beware!  These don't return `bool`s; they return zero or non-zero.
-- Whitespace is defined as in the `cctype` header mentioned above.
+  but beware!  The `iswhatever()` functions don't return `bool`s; they return
+  non-zero for true and zero for false.
+- Some of the tests use _very_ large integers.  Watch out for integer overflow!
+- If your program is given exactly one command line argument, that argument
+  will always be a valid integer.  You don't need to check this.
 - Your code should always print exactly one newline, regardless of the input.
 - Your code must compile with no warnings (see the syllabus).
 - Don't check executables or object files into Git.
