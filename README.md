@@ -33,6 +33,7 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | Date          | Topics
 |---------------|--------
 | January   6th | Class overview; the syllabus
+| January   8th | Git
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
