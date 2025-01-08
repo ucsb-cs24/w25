@@ -17,14 +17,12 @@ assignment, do that on [Gradescope][gradescope].
 
 ## Assignments
 
-_Assignments will be posted here as they are released._
-
-<!-- _Assignments are due before midnight Pacific Time._
+_Assignments are due before midnight Pacific Time._
 
 | Name                    | Due
 |-------------------------|-----
-| Welcome                 | January 14th
- -->
+| [Welcome](labs/welcome) | January 14th
+
 
 ## Lectures
 
