@@ -34,6 +34,8 @@ First, set up your GitHub account and create a new empty repo:
   - Check to see if you have an [existing SSH key][ssh-exists] on your computer.
   - If you don't already have an SSH key, [create one][ssh-create].
   - [Add your SSH key][ssh-github] to your GitHub account.
+  - If you have to choose between adding an Authentication Key and a Signing
+    Key, choose Authentication Key.
 - Create a new repo on GitHub.
   - GitHub will offer to initialize it with some files.  Don't do this!
   - Make sure your new repo is a private repo.
