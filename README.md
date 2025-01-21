@@ -22,7 +22,7 @@ _Assignments are due before midnight Pacific Time._
 | Name                    | Due
 |-------------------------|-----
 | [Welcome](labs/welcome) | January 14th
-| [TicTac](labs/tictac)   | January 21st
+| [TicTac](labs/tictac)   | January 22nd
 
 
 ## Lectures
