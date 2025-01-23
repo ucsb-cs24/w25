@@ -76,6 +76,9 @@ represented as `size_t`s. If a function doesn't modify your vector, mark it as a
 ## Hints
 
 - Your vector should never resize by more than one step per function call.
+- The `std::array` type from the standard library is banned, but not regular C++
+  arrays (like `int a[4];` or `int* b = new int[12];`).  In fact, dynamic arrays
+  are pretty much required!
 - Write stubs for all the required member functions first. If your code compiles
   on Gradescope, you have the correct function signatures (regardless of whether
   or not you pass any of the other tests).
