@@ -40,6 +40,7 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | January  20th | _Martin Luther King Day: No lecture!_
 | January  22nd | Exceptions; const member functions; vectors
 | January  27th | Big-O notation; _Quiz 1: Bring your ID and a pen/pencil!_
+| January  29th | More big-O notation; linked lists
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
