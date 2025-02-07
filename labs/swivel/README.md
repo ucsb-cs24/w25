@@ -46,8 +46,8 @@ that can bring any value up to be the root of the tree.
 - `swivel(value)` behaves like `contains()`  in that it returns whether or not a
   value is in the set. But it also modifies the tree: if the value is present in
   the set, the node holding the value swivels up repeatedly (see below) until it
-  become the root. If the value isn't present, the last node it searched (always
-  a leaf node) swivels up instead.
+  become the root. If the value isn't present, the last node it searched swivels
+  up instead.
 - `remove(value)` removes a value from the set  and returns the number of values
   that were removed.  Implement it with `swivel()`:
   - First, call `swivel()` on the value to be removed.
@@ -131,6 +131,9 @@ More formally:
 - Recursion works even better with trees than it does with linked lists.
 - The standard string comparison operators will give you the correct ordering.
 - The `insert()` and `remove()` functions will always return one or zero.
+- The `swivel()` function only looks at one node at each level in the tree, just
+  like like `contains()`.  If the value to swivel isn't present,  the "last node
+  searched" will have at least one null child.
 - You'll need at least a default constructor, `insert()`, and `print()` before
   you can pass any tests on Gradescope.
 
