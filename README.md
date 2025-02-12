@@ -19,13 +19,14 @@ assignment, do that on [Gradescope][gradescope].
 
 _Assignments are due before midnight Pacific Time._
 
-| Name                    | Due
-|-------------------------|-----
-| [Welcome](labs/welcome) | January  14th
-| [TicTac](labs/tictac)   | January  22nd
-| [FibVec](labs/fibvec)   | January  28th
-| [Assort](labs/assort)   | February  4th
-| [Swivel](labs/swivel)   | February 11th
+| Name                      | Due
+|---------------------------|-----
+| [Welcome](labs/welcome)   | January  14th
+| [TicTac](labs/tictac)     | January  22nd
+| [FibVec](labs/fibvec)     | January  28th
+| [Assort](labs/assort)     | February  4th
+| [Swivel](labs/swivel)     | February 11th
+| [GenePool](labs/genepool) | February 18th
 
 
 ## Lectures
