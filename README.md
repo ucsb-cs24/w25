@@ -44,7 +44,10 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | January  27th | Big-O notation; _Quiz 1: Bring your ID and a pen/pencil!_
 | January  29th | More big-O notation; linked lists
 | February  3rd | Stacks and queues; amortized time
-| February  5th | Sorted sequences; binary search; binary search trees
+| February  5th | Sorted sequences; sets; binary search; binary search trees
+| February 10th | Move constructors; self-balancing trees; AVL trees; splay trees
+| February 12th | Maps; tree traversals; abstract syntax trees; red-black trees
+| February 17th | _Presidents' Day: No lecture!_
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
