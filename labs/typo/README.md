@@ -53,9 +53,9 @@ it will never hold more entries than that.
 
 ### Percolation
 
-A min-heap has the property that every item is smaller than its children.  So if
-you add or remove items from your heap,  you'll need to move them around to keep
-this property.
+A min-heap has the property that every child's score is greater than or equal to
+its parent's score. So if you add or remove items from your heap, you'll need to
+move them around to maintain this property.
 
 When you push an item onto the heap,  put it in the first available slot.  Then,
 if its parent has a higher score, swap it with its parent. Keep doing this until
