@@ -27,11 +27,8 @@ _Assignments are due before midnight Pacific Time._
 | [Assort](labs/assort)     | February  4th
 | [Swivel](labs/swivel)     | February 11th
 | [GenePool](labs/genepool) | February 18th
-<<<<<<< Updated upstream
-=======
 | [Typo](labs/typo)         | February 25th
 | [Counter](labs/counter)   | March     4th
->>>>>>> Stashed changes
 
 
 ## Lectures
@@ -53,12 +50,9 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | February 10th | Move constructors; self-balancing trees; AVL trees; splay trees
 | February 12th | Maps; tree traversals; abstract syntax trees; red-black trees
 | February 17th | _Presidents' Day: No lecture!_
-<<<<<<< Updated upstream
-=======
 | February 19th | Binary heaps; leftist heaps
 | February 24th | Binomial heaps; _Quiz 2_
 | February 26th | Hash tables; probing vs chaining
->>>>>>> Stashed changes
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
