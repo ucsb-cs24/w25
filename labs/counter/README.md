@@ -79,7 +79,7 @@ is recommended, but not required.
 
 The "end" iterator is a special invalid iterator pointing  "one past the end" of
 a counter.  This is used  to indicate that there are  no more key-value pairs to
-iterator over.  It exists to allow loops like this:
+iterate over.  It exists to allow loops like this:
 
 ```cpp
 for(auto itr = counter.begin(); itr != counter.end(); ++itr) {
