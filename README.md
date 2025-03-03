@@ -28,7 +28,7 @@ _Assignments are due before midnight Pacific Time._
 | [Swivel](labs/swivel)     | February 11th
 | [GenePool](labs/genepool) | February 18th
 | [Typo](labs/typo)         | February 25th
-| [Counter](labs/counter)   | March     4th
+| [Counter](labs/counter)   | March     7th
 
 
 ## Lectures
@@ -53,6 +53,9 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | February 19th | Binary heaps; leftist heaps
 | February 24th | Binomial heaps; _Quiz 2_
 | February 26th | Hash tables; probing vs chaining
+| March     3rd | Iterators; disjoint sets
+| March     5th | Introduction to graphs
+| March    10th | TBD; _Quiz 3_
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
