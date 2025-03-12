@@ -52,7 +52,7 @@ dst> 4 0
 eessesswww
 src> 4 0
 dst> 0 4
-eeennwwnneeee
+eeennwwnneee
 src> 0 4
 dst> 4 0
 No route from (0, 4) to (4, 0).
@@ -113,6 +113,7 @@ When entering or displaying points, latitude comes before longitude.
   can't walk on the terrain at that point.
 - A destination point is only invalid if its coordinates are out of bounds.
 - You always start without any bombs.
+- You can carry any number of bombs.
 - If you start on a square with a bomb, you immediately pick it up.
 - All  routes are for the  original map.  Any changes  you make to the map while
   calculating one route need to be reset before calculating the next route.
