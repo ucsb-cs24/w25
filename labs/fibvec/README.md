@@ -59,8 +59,9 @@ represented as `size_t`s. If a function doesn't modify your vector, mark it as a
 - The `capacity` function returns the total size of the storage buffer.
 - The `count` function returns the number of items stored in the vector.
 - The `insert` function takes two arguments: the first is a value and the
-  second is an index.  It stores the value at the given index.  If the index
-  is invalid, it throws a `std::out_of_range` exception.
+  second is an index. It inserts the value at the given index (NOT assignment,
+  i.e. `count()` should increase by 1). If the index is invalid, it throws a
+  `std::out_of_range` exception.
 - The `lookup` function takes one argument: an index.  It returns the value
   stored at that index. If the index is invalid, it throws a `std::out_of_range`
   exception.
