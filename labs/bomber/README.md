@@ -46,7 +46,7 @@ input.  Then exit.
 ......
 ###.##
 .....#
-[ariadne@naxos]$ ./bomber data/map.txt
+[ariadne@naxos]$ ./bomber -i data/map.txt
 src> 0 0
 dst> 4 0
 eessesswww
@@ -130,3 +130,7 @@ When entering or displaying points, latitude comes before longitude.
   the `-O3` flag to enable extra compiler optimizations.
 - The autograder will always run your program with exactly one command line
   argument, which will be a valid path to a valid map file.
+- The autograder will compile your `main.cpp` file and all other `.cpp` files in
+  the `labs/bomber` directory whose names start with capital letters. So you can
+  organize your code as you see fit.
+
