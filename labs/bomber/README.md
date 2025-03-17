@@ -133,4 +133,4 @@ When entering or displaying points, latitude comes before longitude.
 - The autograder will compile your `main.cpp` file and all other `.cpp` files in
   the `labs/bomber` directory whose names start with capital letters. So you can
   organize your code as you see fit.
-
+- The constructor and error test cases use the `tnt-101.txt` map.
