@@ -56,7 +56,8 @@ _11:00 to 12:15 Mondays and Wednesdays in TD-W 1701_
 | February 26th | Hash tables; probing vs chaining
 | March     3rd | Iterators; disjoint sets
 | March     5th | Introduction to graphs; graph traversals
-| March    10th | TBD; _Quiz 3_
+| March    10th | Dijkstra's Algorithm; _Quiz 3_
+| March    12th | Spanning trees; Prim's and Kruskal's Algorithms
 
 
 [piazza]: https://piazza.com/ucsb/winter2025/cs24
