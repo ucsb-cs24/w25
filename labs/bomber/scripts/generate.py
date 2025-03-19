@@ -11,7 +11,7 @@ def main():
     parser.add_argument('-s', '--seed', type=int, help='random seed')
 
     subparsers = parser.add_subparsers(dest='command', required=True, help='map style')
-    gen.archipelagio.add_command(subparsers)
+    gen.archipelago.add_command(subparsers)
     gen.catacombs.add_command(subparsers)
     gen.continents.add_command(subparsers)
     gen.firemaze.add_command(subparsers)
